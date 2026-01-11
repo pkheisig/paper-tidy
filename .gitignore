@@ -1,0 +1,14 @@
+# Mac Build
+PaperTidy/build/
+.DS_Store
+
+# Python Build
+PaperTidy-Python/build/
+PaperTidy-Python/dist/
+PaperTidy-Python/*.spec
+PaperTidy-Python/__pycache__/
+*.pyc
+
+# IDEs
+.idea/
+.vscode/
