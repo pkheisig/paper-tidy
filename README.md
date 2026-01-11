@@ -1,8 +1,8 @@
-# 📄 Paper Tidy
+# 📄 Paperenamer
 
 **Tired of not knowing which file belongs to which study?** 🤯
 
-**Paper Tidy** is a simple, powerful tool that scans your folder of PDF research papers, automatically finds their metadata (DOI, Author, Year, Journal), and renames them into a clean, standardized format.
+**Paperenamer** is a simple, powerful tool that scans your folder of PDF research papers, automatically finds their metadata (DOI, Author, Year, Journal), and renames them into a clean, standardized format.
 
 From `102938.pdf` → `2025_Jackson_NatImmunol.pdf` ✨
 
@@ -23,15 +23,15 @@ From `102938.pdf` → `2025_Jackson_NatImmunol.pdf` ✨
 We have a native, fast SwiftUI app for you.
 
 ### How to Run
-1.  Open Terminal in the `PaperTidy` folder.
+1.  Open Terminal in the `Paperenamer` folder.
 2.  Run the build script:
     ```bash
-    cd PaperTidy
+    cd Paperenamer
     ./build.sh
     ```
 3.  Open the app:
     ```bash
-    open "build/Paper Tidy.app"
+    open "build/Paperenamer.app"
     ```
 
 ---
@@ -44,7 +44,7 @@ We have a Python version that works everywhere. You can even build it into a sta
 1.  Install Python 3.
 2.  Install dependencies:
     ```bash
-    cd PaperTidy-Python
+    cd Paperenamer-Python
     pip install -r requirements.txt
     ```
 3.  Run the app:
@@ -53,7 +53,7 @@ We have a Python version that works everywhere. You can even build it into a sta
     ```
 
 ### How to Create an .EXE (Windows)
-1.  Double-click `build_windows.bat` in the `PaperTidy-Python` folder.
+1.  Double-click `build_windows.bat` in the `Paperenamer-Python` folder.
 2.  Wait for the build to finish.
 3.  Your app will be in the `dist` folder!
 
